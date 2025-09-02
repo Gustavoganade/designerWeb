@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exericio 6</title>
+</head>
+<body>
+ <nav class="nav-bar">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="#">Início</a></li>
+    <li class="nav-item"><a href="#">Sobre</a></li>
+    <li class="nav-item"><a href="#">Serviços</a></li>
+    <li class="nav-item"><a href="#">Portfólio</a></li>
+    <li class="nav-item"><a href="#">Contato</a></li>
+  </ul>
+</nav>
+</body>
+<style>
+
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.nav-bar {
+  background-color: #1e90ff; 
+  padding: 0.75rem 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;           
+  gap: 1rem;                  
+  align-items: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  color: #fff;                  
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;    
+  border-radius: 8px;
+  font-size: 1.05rem;           
+  transition: transform 0.25s ease, background-color 0.25s ease, font-size 0.25s ease;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+
+.nav-item a:hover,
+.nav-item a:focus {
+  background-color: #ffffff;    
+  color: #000;                   
+  transform: scale(1.04);         
+  font-size: 1.15rem;             
+}
+
+</style>
+</html>

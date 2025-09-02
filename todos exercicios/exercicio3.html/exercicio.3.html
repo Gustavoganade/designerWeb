@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio3</title>
+</head>
+<body>
+<nav class="nav-bar-vertical">
+  <ul class="nav-list-vertical">
+    <li class="nav-item-vertical"><a href="#">Principal</a></li>
+    <li class="nav-item-vertical"><a href="#">Sobre Nós</a></li>
+    <li class="nav-item-vertical"><a href="#">Produtos</a></li>
+    <li class="nav-item-vertical"><a href="#">Serviços</a></li>
+    <li class="nav-item-vertical"><a href="#">Contato</a></li>
+  </ul>
+</nav>
+<style>
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.nav-bar-vertical {
+  background-color: #ffffff; 
+  padding: 0.75rem 1rem;
+}
+
+.nav-list-vertical {
+  list-style: none;
+  display: block;
+  width: max-content;
+  position: relative;
+}
+
+
+.nav-item-vertical {
+  margin: 0.25rem 0;
+  padding-left: 0;
+  position: relative;
+}
+
+
+.nav-item-vertical + .nav-item-vertical,
+.nav-item-vertical:before { 
+
+}
+
+
+.nav-list-vertical::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;                 
+  background: #32cd32;         
+  border-radius: 6px;
+  transform: translateX(-6px); /
+  transition: background-color 0.25s ease;
+}
+
+
+.nav-item-vertical a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;    
+  border-radius: 8px;
+  font-size: 1.05rem;
+  transition: transform 0.25s ease, background-color 0.25s ease, font-size 0.25s ease;
+  background-color: transparent;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+
+
+.nav-item-vertical a:hover,
+.nav-item-vertical a:focus {
+  background-color: #28a745;   
+  color: #fff;
+  font-size: 1.15rem;          
+  transform: scale(1.02);
+}
+
+
+.nav-list-vertical:hover::before,
+.nav-list-vertical:focus-within::before {
+  background: #32cd32;
+}
+
+</style>
+
+
+
+</body>
+</html>

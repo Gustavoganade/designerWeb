@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+     body{
+line-height: 1.5;
+margin: 20px;
+     }
+     table{
+width: 100%;
+border-collapse: collapse;
+margin:20px auto;
+border-radius: 11px;
+overflow: hidden;
+
+     }
+     caption{
+          font: 1em sans-serif;
+font-weight: bold;
+padding: 20px;
+
+     }
+     td, th{
+          border: 1px solid;
+     text-align: left;
+     }
+footer{
+
+     font-weight: bold;
+     border-collapse: separate;
+     padding: 10px; font-weight: bold; 
+     }
+
+    

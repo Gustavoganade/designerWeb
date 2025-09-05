@@ -1,0 +1,50 @@
+@charset "utf-8";
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+
+line-height: 1.6;
+margin: 0px
+ }
+ table{
+     width: 25%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  
+
+  
+    overflow: hidden;
+ }
+caption{
+font-size: 20px;
+font-weight: center;
+padding: 1px;}
+
+
+th{
+border: 10px solid;
+text-align: center;
+font-size: 10px;
+}
+
+tfoot h1{
+   
+ text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+td  {
+border: 2px solid;
+text-align: justify;
+font-size: 1.2em;
+
+}
+.COD{font-weight: bolder;}
+.FUNCAO{font-weight: bolder;}
+thead{ font: bolder;
+   
+    }
+.coluna1{width: 6px; line-height: 1; }
+thead td {line-height: 2; 
+ 
+ }
